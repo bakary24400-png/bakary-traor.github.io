@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Portfolio de Bakary Traoré, étudiant à HESTIM à Casablanca, passionné par le développement informatique.">
+
+  <title>Bakary Traoré | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a href="#accueil" class="logo">
+        <span class="logo-mark">BT</span>
+        <span>Bakary<span class="accent">.</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Ouvrir le menu" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#accueil" class="nav-link active">Accueil</a>
+        <a href="#apropos" class="nav-link">À propos</a>
+        <a href="#competences" class="nav-link">Compétences</a>
+        <a href="#projets" class="nav-link">Projets</a>
+        <a href="#contact" class="nav-link nav-contact">Me contacter ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ACCUEIL -->
+    <section class="hero container section" id="accueil">
+      <div class="hero-content reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          Étudiant en informatique · Casablanca, Maroc
+        </div>
+
+        <p class="eyebrow">BONJOUR, JE SUIS</p>
+
+        <h1>Bakary <span class="gradient-text">Traoré.</span></h1>
+
+        <h2 class="hero-subtitle">
+          Étudiant & futur <span class="typed-text">développeur web</span>
+        </h2>
+
+        <p class="hero-description">
+          Étudiant à HESTIM, je développe mes compétences en informatique
+          et en création web. J'aime apprendre, expérimenter et transformer
+          mes idées en projets concrets.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projets" class="button button-primary">
+            Découvrir mes projets <span>↗</span>
+          </a>
+          <a href="#contact" class="button button-secondary">
+            Me contacter
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/bakary-traor%C3%A9-42612a444/"
+             target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+          <span class="social-divider">/</span>
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer" id="github-profile-link">
+            GitHub ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+          <div class="card-top">
+            <span class="window-dot red"></span>
+            <span class="window-dot yellow"></span>
+            <span class="window-dot green"></span>
+            <span class="card-label">about-me.js</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent">
+              name: <span class="code-green">"Bakary Traoré"</span>,
+            </p>
+            <p class="indent">
+              school: <span class="code-green">"HESTIM"</span>,
+            </p>
+            <p class="indent">
+              city: <span class="code-green">"Casablanca"</span>,
+            </p>
+            <p class="indent">
+              interests: [
+            </p>
+            <p class="indent double-indent">
+              <span class="code-green">"Web development"</span>,
+            </p>
+            <p class="indent double-indent">
+              <span class="code-green">"Technology"</span>
+            </p>
+            <p class="indent">],</p>
+            <p class="indent">
+              mindset: <span class="code-green">"Always learning"</span>
+            </p>
+            <p>};</p>
+            <br>
+            <p><span class="code-purple">console</span>.log(</p>
+            <p class="indent code-green">"Building my future."</p>
+            <p>); <span class="cursor">▋</span></p>
+          </div>
+
+          <div class="card-bottom">
+            <span>● Portfolio personnel</span>
+            <span>HTML · CSS · JS</span>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-top">✦ Curieux</div>
+        <div class="floating-badge badge-bottom">{" "}En apprentissage ↗</div>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="section container" id="apropos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">QUI SUIS-JE ?</p>
+        <h2>À propos de <span class="gradient-text">moi.</span></h2>
+        <p class="section-description">
+          Construire aujourd'hui les compétences de demain.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card about-card reveal">
+          <span class="card-icon">⌘</span>
+          <h3>Mon parcours</h3>
+          <p>
+            Je suis étudiant à HESTIM, à Casablanca. Je m'intéresse au
+            monde de l'informatique et je construis progressivement mes
+            connaissances grâce à la pratique et à des projets personnels.
+          </p>
+        </article>
+
+        <article class="glass-card about-card reveal">
+          <span class="card-icon">✧</span>
+          <h3>Ma vision</h3>
+          <p>
+            Mon objectif est de devenir un professionnel compétent,
+            capable de concevoir des solutions numériques utiles,
+            accessibles et bien pensées.
+          </p>
+        </article>
+
+        <article class="glass-card about-card reveal">
+          <span class="card-icon">↗</span>
+          <h3>Ma méthode</h3>
+          <p>
+            Apprendre les bases, écrire du code, tester mes idées,
+            corriger mes erreurs et améliorer chaque projet étape par étape.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="section container" id="competences">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MON UNIVERS TECHNIQUE</p>
+        <h2>Compétences & <span class="gradient-text">apprentissage.</span></h2>
+        <p class="section-description">
+          Les technologies que j'explore et que je souhaite approfondir.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="glass-card skill-card reveal">
+          <div class="skill-symbol html-symbol">5</div>
+          <div>
+            <h3>HTML5</h3>
+            <p>Structure et contenu des pages web</p>
+            <span class="skill-tag">En apprentissage</span>
+          </div>
+        </article>
+
+        <article class="glass-card skill-card reveal">
+          <div class="skill-symbol css-symbol">3</div>
+          <div>
+            <h3>CSS3</h3>
+            <p>Styles, mise en page et responsive design</p>
+            <span class="skill-tag">En apprentissage</span>
+          </div>
+        </article>
+
+        <article class="glass-card skill-card reveal">
+          <div class="skill-symbol js-symbol">JS</div>
+          <div>
+            <h3>JavaScript</h3>
+            <p>Interactions et fonctionnalités web</p>
+            <span class="skill-tag">À approfondir</span>
+          </div>
+        </article>
+
+        <article class="glass-card skill-card reveal">
+          <div class="skill-symbol git-symbol">⌘</div>
+          <div>
+            <h3>Git & GitHub</h3>
+            <p>Gestion de versions et projets</p>
+            <span class="skill-tag">À approfondir</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section container" id="projets">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CE QUE JE CONSTRUIS</p>
+        <h2>Mes <span class="gradient-text">projets.</span></h2>
+        <p class="section-description">
+          Des projets personnels qui évolueront avec mes compétences.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card reveal">
+          <div class="project-preview preview-portfolio">
+            <span class="preview-label">01 / WEB</span>
+            <div class="preview-window">
+              <div class="preview-bar"><i></i><i></i><i></i></div>
+              <div class="preview-line line-large"></div>
+              <div class="preview-line"></div>
+              <div class="preview-blocks"><i></i><i></i><i></i></div>
+            </div>
+            <span class="preview-code">&lt;/&gt;</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>Projet personnel</span><span>01</span>
+            </div>
+            <h3>Mon portfolio</h3>
+            <p>
+              Un site personnel pour présenter mon parcours, mes
+              compétences, mes projets et mes liens professionnels.
+            </p>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/" target="_blank"
+               rel="noopener noreferrer" class="project-link">
+              Voir sur GitHub <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-preview preview-learning">
+            <span class="preview-label">02 / LEARNING</span>
+            <div class="learning-symbol">{ }</div>
+            <div class="learning-caption">Learning by doing.</div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>En préparation</span><span>02</span>
+            </div>
+            <h3>Laboratoire de code</h3>
+            <p>
+              Un espace pour pratiquer les bases de la programmation,
+              tester des idées et conserver mes exercices.
+            </p>
+            <div class="tech-tags">
+              <span>Code</span><span>Pratique</span><span>Progression</span>
+            </div>
+            <a href="https://github.com/" target="_blank"
+               rel="noopener noreferrer" class="project-link">
+              Explorer GitHub <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+      <p class="projects-note">
+        Les projets et liens ci-dessus sont des exemples de départ.
+        Remplace-les par tes vrais dépôts lorsqu'ils seront disponibles.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="contact-panel glass-card reveal">
+        <div class="contact-content">
+          <p class="eyebrow">ENTRONS EN CONTACT</p>
+          <h2>Une idée ?<br><span class="gradient-text">Parlons-en.</span></h2>
+          <p>
+            Je développe mon parcours dans l'informatique et je suis
+            ouvert aux échanges, aux conseils et aux opportunités
+            d'apprentissage.
+          </p>
+
+          <div class="contact-actions">
+            <a class="button button-primary"
+               href="https://www.linkedin.com/in/bakary-traor%C3%A9-42612a444/"
+               target="_blank" rel="noopener noreferrer">
+              Me retrouver sur LinkedIn ↗
+            </a>
+            <a class="button button-secondary"
+               href="https://github.com/" target="_blank"
+               rel="noopener noreferrer" id="github-contact-link">
+              Mon GitHub ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-decoration" aria-hidden="true">
+          <div class="contact-circle circle-one"></div>
+          <div class="contact-circle circle-two"></div>
+          <div class="contact-monogram">BT<span>.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#accueil" class="logo">
+        <span class="logo-mark">BT</span>
+        <span>Bakary<span class="accent">.</span></span>
+      </a>
+      <p>Conçu avec curiosité et beaucoup d'envie d'apprendre.</p>
+      <p>© <span id="current-year"></span> Bakary Traoré</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top"
+    aria-label="Retour en haut">↑</button>
+</body>
+</html>
+
+    
+</body>
+</html>
